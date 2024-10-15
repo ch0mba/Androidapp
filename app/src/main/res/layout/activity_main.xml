@@ -31,6 +31,34 @@
             android:inputType="textPersonName" />
 
         <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="firstname" />
+
+        <EditText
+            android:id="@+id/editTextFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:ems="10"
+            android:hint ="First Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lastname" />
+
+        <EditText
+            android:id="@+id/editTextLastname"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:ems="10"
+            android:hint ="Last name"
+            android:inputType="textPersonName" />
+
+        <TextView
             android:id="@+id/textViewPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
